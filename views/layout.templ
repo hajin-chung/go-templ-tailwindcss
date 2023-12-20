@@ -1,0 +1,14 @@
+package views
+
+templ Layout(title string) {
+  <!doctype html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="/public/out.css" />
+      <title>{title}</title>
+    </head>
+    <body>
+      { children... }
+    </body>
+  </html>
+}
